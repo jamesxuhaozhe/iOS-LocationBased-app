@@ -14,7 +14,7 @@
 		7BCEA69B180425D70001FAC5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA69A180425D70001FAC5 /* main.m */; };
 		7BCEA69F180425D70001FAC5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA69E180425D70001FAC5 /* AppDelegate.m */; };
 		7BCEA6A2180425D70001FAC5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEA6A0180425D70001FAC5 /* Main.storyboard */; };
-		7BCEA6A5180425D70001FAC5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA6A4180425D70001FAC5 /* FirstViewController.m */; };
+		7BCEA6A5180425D70001FAC5 /* CurrentLocationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA6A4180425D70001FAC5 /* CurrentLocationViewController.m */; };
 		7BCEA6A8180425D70001FAC5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA6A7180425D70001FAC5 /* SecondViewController.m */; };
 		7BCEA6AA180425D70001FAC5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEA6A9180425D70001FAC5 /* Images.xcassets */; };
 		7BCEA6B1180425D70001FAC5 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BCEA6B0180425D70001FAC5 /* XCTest.framework */; };
@@ -22,6 +22,9 @@
 		7BCEA6B3180425D70001FAC5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BCEA692180425D70001FAC5 /* UIKit.framework */; };
 		7BCEA6BB180425D70001FAC5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7BCEA6B9180425D70001FAC5 /* InfoPlist.strings */; };
 		7BCEA6BD180425D70001FAC5 /* MyLocationsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA6BC180425D70001FAC5 /* MyLocationsTests.m */; };
+		7BCEA6C718058E610001FAC5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BCEA6C618058E610001FAC5 /* CoreLocation.framework */; };
+		7BCEA70B180804DF0001FAC5 /* LocationDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA70A180804DF0001FAC5 /* LocationDetailsViewController.m */; };
+		7BCEA70E180854D40001FAC5 /* CategoryPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA70D180854D40001FAC5 /* CategoryPickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,8 +49,8 @@
 		7BCEA69D180425D70001FAC5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7BCEA69E180425D70001FAC5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		7BCEA6A1180425D70001FAC5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7BCEA6A3180425D70001FAC5 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		7BCEA6A4180425D70001FAC5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		7BCEA6A3180425D70001FAC5 /* CurrentLocationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CurrentLocationViewController.h; sourceTree = "<group>"; };
+		7BCEA6A4180425D70001FAC5 /* CurrentLocationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CurrentLocationViewController.m; sourceTree = "<group>"; };
 		7BCEA6A6180425D70001FAC5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		7BCEA6A7180425D70001FAC5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		7BCEA6A9180425D70001FAC5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -56,6 +59,11 @@
 		7BCEA6B8180425D70001FAC5 /* MyLocationsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MyLocationsTests-Info.plist"; sourceTree = "<group>"; };
 		7BCEA6BA180425D70001FAC5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		7BCEA6BC180425D70001FAC5 /* MyLocationsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyLocationsTests.m; sourceTree = "<group>"; };
+		7BCEA6C618058E610001FAC5 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7BCEA709180804DF0001FAC5 /* LocationDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationDetailsViewController.h; sourceTree = "<group>"; };
+		7BCEA70A180804DF0001FAC5 /* LocationDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetailsViewController.m; sourceTree = "<group>"; };
+		7BCEA70C180854D40001FAC5 /* CategoryPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryPickerViewController.h; sourceTree = "<group>"; };
+		7BCEA70D180854D40001FAC5 /* CategoryPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryPickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BCEA6C718058E610001FAC5 /* CoreLocation.framework in Frameworks */,
 				7BCEA691180425D70001FAC5 /* CoreGraphics.framework in Frameworks */,
 				7BCEA693180425D70001FAC5 /* UIKit.framework in Frameworks */,
 				7BCEA68F180425D70001FAC5 /* Foundation.framework in Frameworks */,
@@ -104,6 +113,7 @@
 		7BCEA68D180425D70001FAC5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				7BCEA6C618058E610001FAC5 /* CoreLocation.framework */,
 				7BCEA68E180425D70001FAC5 /* Foundation.framework */,
 				7BCEA690180425D70001FAC5 /* CoreGraphics.framework */,
 				7BCEA692180425D70001FAC5 /* UIKit.framework */,
@@ -118,12 +128,16 @@
 				7BCEA69D180425D70001FAC5 /* AppDelegate.h */,
 				7BCEA69E180425D70001FAC5 /* AppDelegate.m */,
 				7BCEA6A0180425D70001FAC5 /* Main.storyboard */,
-				7BCEA6A3180425D70001FAC5 /* FirstViewController.h */,
-				7BCEA6A4180425D70001FAC5 /* FirstViewController.m */,
+				7BCEA6A3180425D70001FAC5 /* CurrentLocationViewController.h */,
+				7BCEA6A4180425D70001FAC5 /* CurrentLocationViewController.m */,
 				7BCEA6A6180425D70001FAC5 /* SecondViewController.h */,
 				7BCEA6A7180425D70001FAC5 /* SecondViewController.m */,
 				7BCEA6A9180425D70001FAC5 /* Images.xcassets */,
 				7BCEA695180425D70001FAC5 /* Supporting Files */,
+				7BCEA709180804DF0001FAC5 /* LocationDetailsViewController.h */,
+				7BCEA70A180804DF0001FAC5 /* LocationDetailsViewController.m */,
+				7BCEA70C180854D40001FAC5 /* CategoryPickerViewController.h */,
+				7BCEA70D180854D40001FAC5 /* CategoryPickerViewController.m */,
 			);
 			path = MyLocations;
 			sourceTree = "<group>";
@@ -256,8 +270,10 @@
 			files = (
 				7BCEA6A8180425D70001FAC5 /* SecondViewController.m in Sources */,
 				7BCEA69F180425D70001FAC5 /* AppDelegate.m in Sources */,
-				7BCEA6A5180425D70001FAC5 /* FirstViewController.m in Sources */,
+				7BCEA6A5180425D70001FAC5 /* CurrentLocationViewController.m in Sources */,
 				7BCEA69B180425D70001FAC5 /* main.m in Sources */,
+				7BCEA70E180854D40001FAC5 /* CategoryPickerViewController.m in Sources */,
+				7BCEA70B180804DF0001FAC5 /* LocationDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +482,7 @@
 				7BCEA6C2180425D70001FAC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7BCEA6C3180425D70001FAC5 /* Build configuration list for PBXNativeTarget "MyLocationsTests" */ = {
 			isa = XCConfigurationList;
@@ -474,6 +491,7 @@
 				7BCEA6C5180425D70001FAC5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
