@@ -25,6 +25,7 @@
 		7BCEA6C718058E610001FAC5 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BCEA6C618058E610001FAC5 /* CoreLocation.framework */; };
 		7BCEA70B180804DF0001FAC5 /* LocationDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA70A180804DF0001FAC5 /* LocationDetailsViewController.m */; };
 		7BCEA70E180854D40001FAC5 /* CategoryPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA70D180854D40001FAC5 /* CategoryPickerViewController.m */; };
+		AE62A9861A8763A80025C17F /* HudView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE62A9851A8763A80025C17F /* HudView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,8 @@
 		7BCEA70A180804DF0001FAC5 /* LocationDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationDetailsViewController.m; sourceTree = "<group>"; };
 		7BCEA70C180854D40001FAC5 /* CategoryPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryPickerViewController.h; sourceTree = "<group>"; };
 		7BCEA70D180854D40001FAC5 /* CategoryPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryPickerViewController.m; sourceTree = "<group>"; };
+		AE62A9841A8763A80025C17F /* HudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudView.h; sourceTree = "<group>"; };
+		AE62A9851A8763A80025C17F /* HudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +141,8 @@
 				7BCEA70A180804DF0001FAC5 /* LocationDetailsViewController.m */,
 				7BCEA70C180854D40001FAC5 /* CategoryPickerViewController.h */,
 				7BCEA70D180854D40001FAC5 /* CategoryPickerViewController.m */,
+				AE62A9841A8763A80025C17F /* HudView.h */,
+				AE62A9851A8763A80025C17F /* HudView.m */,
 			);
 			path = MyLocations;
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 				7BCEA69F180425D70001FAC5 /* AppDelegate.m in Sources */,
 				7BCEA6A5180425D70001FAC5 /* CurrentLocationViewController.m in Sources */,
 				7BCEA69B180425D70001FAC5 /* main.m in Sources */,
+				AE62A9861A8763A80025C17F /* HudView.m in Sources */,
 				7BCEA70E180854D40001FAC5 /* CategoryPickerViewController.m in Sources */,
 				7BCEA70B180804DF0001FAC5 /* LocationDetailsViewController.m in Sources */,
 			);
