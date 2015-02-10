@@ -14,6 +14,8 @@
 @property (nonatomic, weak) IBOutlet UILabel *addressLabel;
 @property (nonatomic, weak) IBOutlet UIButton *tagButton;
 @property (nonatomic, weak) IBOutlet UIButton *getButton;
+@property (nonatomic, strong) NSManagedObjectContext
+*managedObjectContext;
 
 - (IBAction)getLocation:(id)sender;
 

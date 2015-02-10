@@ -27,6 +27,7 @@
 		7BCEA70E180854D40001FAC5 /* CategoryPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BCEA70D180854D40001FAC5 /* CategoryPickerViewController.m */; };
 		AE06D3F51A89F84300E38853 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE06D3F41A89F84300E38853 /* CoreData.framework */; };
 		AE06D3F81A89F87500E38853 /* DataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE06D3F61A89F87500E38853 /* DataModel.xcdatamodeld */; };
+		AE06D3FB1A89FC4E00E38853 /* Location.m in Sources */ = {isa = PBXBuildFile; fileRef = AE06D3FA1A89FC4E00E38853 /* Location.m */; };
 		AE62A9861A8763A80025C17F /* HudView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE62A9851A8763A80025C17F /* HudView.m */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +70,8 @@
 		7BCEA70D180854D40001FAC5 /* CategoryPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryPickerViewController.m; sourceTree = "<group>"; };
 		AE06D3F41A89F84300E38853 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		AE06D3F71A89F87500E38853 /* DataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataModel.xcdatamodel; sourceTree = "<group>"; };
+		AE06D3F91A89FC4E00E38853 /* Location.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Location.h; sourceTree = "<group>"; };
+		AE06D3FA1A89FC4E00E38853 /* Location.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Location.m; sourceTree = "<group>"; };
 		AE62A9841A8763A80025C17F /* HudView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HudView.h; sourceTree = "<group>"; };
 		AE62A9851A8763A80025C17F /* HudView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HudView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,6 +153,8 @@
 				AE62A9841A8763A80025C17F /* HudView.h */,
 				AE62A9851A8763A80025C17F /* HudView.m */,
 				AE06D3F61A89F87500E38853 /* DataModel.xcdatamodeld */,
+				AE06D3F91A89FC4E00E38853 /* Location.h */,
+				AE06D3FA1A89FC4E00E38853 /* Location.m */,
 			);
 			path = MyLocations;
 			sourceTree = "<group>";
@@ -284,6 +289,7 @@
 				AE06D3F81A89F87500E38853 /* DataModel.xcdatamodeld in Sources */,
 				7BCEA69F180425D70001FAC5 /* AppDelegate.m in Sources */,
 				7BCEA6A5180425D70001FAC5 /* CurrentLocationViewController.m in Sources */,
+				AE06D3FB1A89FC4E00E38853 /* Location.m in Sources */,
 				7BCEA69B180425D70001FAC5 /* main.m in Sources */,
 				AE62A9861A8763A80025C17F /* HudView.m in Sources */,
 				7BCEA70E180854D40001FAC5 /* CategoryPickerViewController.m in Sources */,
